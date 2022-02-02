@@ -56,7 +56,7 @@ const Middle = () => {
             textTransform: "uppercase",
           }}
         >
-          <i class="fal fa-user fa-2x"></i>
+          <i className="fal fa-user fa-2x"></i>
           <p className="ps-2 m-0" style={{ fontSize: "12px" }}>
             Hello,
             <br />

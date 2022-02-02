@@ -50,10 +50,10 @@ const Topbar = () => {
           Welcome to our store!
         </a>
         <a href="##" style={href}>
-          <i class="fal fa-folder-open"></i> Blog
+          <i className="fal fa-folder-open"></i> Blog
         </a>
         <a href="##" style={href}>
-          <i class="fal fa-clone"></i> FAQ
+          <i className="fal fa-clone"></i> FAQ
         </a>
         <a
           href="##"
@@ -66,7 +66,7 @@ const Topbar = () => {
             padding: "10px",
           }}
         >
-          <i class="fal fa-envelope"></i> Contact Us
+          <i className="fal fa-envelope"></i> Contact Us
         </a>
       </div>
     </Container>
