@@ -27,6 +27,22 @@ const Banner = () => {
       desc: "MIN.40% OFF",
     },
   });
+  const [topBottomBanner, setTopBottomBanner] = useState({
+    top: {
+      img: "https://kapee.presslayouts.com/wp-content/uploads/2019/06/catalog-banner-1.jpg",
+      title: "White sneakers",
+      subTitle: "min.30% off",
+      desc: "Man fasionable shoe",
+      route: "/shop/shoes",
+    },
+    bottom: {
+      img: "https://kapee.presslayouts.com/wp-content/uploads/2019/06/catalog-banner-2.jpg",
+      title: "women's fasion",
+      subTitle: "up to 65% off",
+      desc: "shows & backpacs",
+      route: "/shop/backpacks",
+    }
+  });
 
   useEffect(() => {
     AOS.init();
@@ -38,8 +54,8 @@ const Banner = () => {
         <Col lg={8} md={8} xs={12} sm={12}>
           <SliderBanner banner={banner} />
         </Col>
-        <Col lg={4} md={4} xs={12} sm={12} className="">
-          <TopBottomBanner />
+        <Col lg={4} md={4} xs={12} sm={12}>
+          <TopBottomBanner top={topBottomBanner?.top} bottom={topBottomBanner?.bottom}/>
         </Col>
       </Row>
     </div>
