@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Bottom from './Bottom';
+// import Bottom from './Bottom';
 import Middle from './Middle';
 import Topbar from './Topbar';
 
