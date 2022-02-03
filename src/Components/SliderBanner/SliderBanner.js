@@ -1,6 +1,6 @@
 import React from "react";
-import "./SliderBanner.css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "./SliderBanner.css";
 
 // Import Swiper styles
 import "swiper/css";

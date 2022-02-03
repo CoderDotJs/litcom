@@ -1,0 +1,136 @@
+#searchbar {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  height: 41px;
+  margin: 0 0 0 12%;
+}
+#searchbar input {
+  border-radius: 50px;
+  border: transparent;
+  width: 100%;
+  font-size: 14px;
+  outline: none;
+  padding: 10px 15px;
+}
+#searchbar select {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  border: none;
+  border-left: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  width: auto;
+  height: 100%;
+  outline: none;
+}
+#searchbar .search-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 10%;
+}
+
+#searchbar .search-icon button {
+  border: none;
+  background: none;
+  color: #3885fe;
+}
+
+/* md screen  */
+
+#searchbar-md {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  height: 41px;
+  margin: 0 auto;
+}
+#searchbar-md input {
+  border-radius: 50px;
+  border: transparent;
+  width: 100%;
+  font-size: 14px;
+  outline: none;
+  padding: 10px 15px;
+}
+#searchbar-md select {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  border: none;
+  border-left: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  width: auto;
+  height: 100%;
+  outline: none;
+  width: 30%;
+}
+#searchbar-md .search-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 10%;
+}
+
+#searchbar-md .search-icon button {
+  border: none;
+  background: white;
+  color: #3885fe;
+  border-radius: 10px;
+}
+
+.right__navbar .wishlist span {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  right: -20px;
+  top: 5px;
+  background: #2370f4;
+}
+
+.right__navbar .welcome {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.right__navbar .welcome a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.right__navbar .cart span {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  right: -20px;
+  top: 5px;
+  background: #2370f4;
+}
+
+.right__navbar .cart a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
+
+@media only screen and (min-width: 991px) {
+  .middlebar .img{
+    width: 130px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .middlebar .img{
+    width: 86px;
+  }
+}
+

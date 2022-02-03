@@ -1,0 +1,36 @@
+.lang__select__dropdown {
+  border: none;
+  outline: none;
+  border-left: 1px solid #3885fe;
+  border-right: 1px solid #3885fe;
+  text-transform: uppercase;
+  color: white;
+  background: #2370f4;
+  padding: 10px;
+  font-size: 12px;
+}
+.topbar__links {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-left: 1px solid #3885fe;
+  padding: 10px;
+}
+.topbar__links__last {
+  border-right: 1px solid #3885fe;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.topbar__links:hover, .topbar__links__last:hover{
+    color: white;
+}
+
+@media only screen and (max-width: 991px) {
+    .topbar{
+        display: none !important;
+    }
+}
