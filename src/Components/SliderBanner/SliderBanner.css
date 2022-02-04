@@ -193,6 +193,16 @@
 }
 @media only screen and (max-width: 768px) {
   .swiper-wrapper{
-    height: 45vh !important;
+    height: 325px !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .swiper-wrapper{
+    height: 225px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .swiper-wrapper{
+    height: 190px !important;
   }
 }

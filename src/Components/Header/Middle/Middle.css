@@ -54,6 +54,7 @@
   font-size: 14px;
   outline: none;
   padding: 10px 15px;
+  background: white;
 }
 #searchbar-md select {
   position: absolute;
@@ -89,6 +90,7 @@
   right: -20px;
   top: 5px;
   background: #2370f4;
+  color: #007aff !important;
 }
 
 .right__navbar .welcome {
@@ -111,6 +113,7 @@
   right: -20px;
   top: 5px;
   background: #2370f4;
+  color: #007aff !important;
 }
 
 .right__navbar .cart a {
@@ -121,16 +124,113 @@
   font-size: 14px;
 }
 
-
-
 @media only screen and (min-width: 991px) {
-  .middlebar .img{
+  .middlebar .img {
     width: 130px;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 991px) {
-  .middlebar .img{
-    width: 86px;
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .fal.fa-user.fa-2x {
+    font-size: 34px;
+  }
+  .fal.fa-heart.fa-2x {
+    font-size: 34px;
+  }
+  .fal.fa-shopping-cart.fa-2x {
+    font-size: 34px;
+  }
+  .icon-text {
+    font-size: 11px;
+  }
+  .icon-text p {
+    font-size: 13px;
+  }
+  .right__navbar .wishlist span {
+    width: 23px;
+    height: 23px;
+    right: -15px;
+    font-size: 11px;
+  }
+  .right__navbar .cart span {
+    width: 23px;
+    height: 23px;
+    right: -15px;
+    font-size: 11px;
   }
 }
-
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .fal.fa-user.fa-2x {
+    font-size: 28px;
+  }
+  .fal.fa-heart.fa-2x {
+    font-size: 28px;
+  }
+  .fal.fa-shopping-cart.fa-2x {
+    font-size: 28px;
+  }
+  .icon-text {
+    font-size: 10px;
+  }
+  .icon-text p {
+    font-size: 12px;
+  }
+  .right__navbar .wishlist span {
+    width: 20px;
+    height: 20px;
+    right: -15px;
+    font-size: 10px;
+  }
+  .right__navbar .cart span {
+    width: 20px;
+    height: 20px;
+    right: -15px;
+    font-size: 10px;
+  }
+  .icon-text-2nd {
+    display: none;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .fal.fa-user.fa-2x {
+    font-size: 20px;
+  }
+  .fal.fa-heart.fa-2x {
+    font-size: 20px;
+  }
+  .fal.fa-shopping-cart.fa-2x {
+    font-size: 20px;
+  }
+  .icon-text {
+    font-size: 8px;
+  }
+  .icon-text p {
+    font-size: 10px;
+  }
+  .right__navbar .wishlist span {
+    width: 20px;
+    height: 20px;
+    right: -15px;
+    font-size: 10px;
+  }
+  .right__navbar .cart span {
+    width: 20px;
+    height: 20px;
+    right: -15px;
+    font-size: 10px;
+  }
+  #searchbar-md select {
+    display: none;
+  }
+  .icon-text-2nd {
+    display: none;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .middlebar .img {
+    width: 86px;
+  }
+  .icon-text-first {
+    display: none;
+  }
+}

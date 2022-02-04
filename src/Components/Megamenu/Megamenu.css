@@ -1,0 +1,14 @@
+.megamenu-contianer{
+    font-weight: 500;
+}
+.category{
+    z-index: 5;
+}
+.category-relative{
+    position: relative;
+}
+.category-absolute{
+    position: absolute;
+    top: 33px;
+    left: 0;
+}

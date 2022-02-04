@@ -63,7 +63,7 @@ const Middle = () => {
             className="welcome d-flex justify-content-center align-items-center mx-1"
           >
             <i className="fal fa-user fa-2x"></i>
-            <p className="ps-2 m-0" style={{ fontSize: "12px" }}>
+            <p className="ps-2 m-0 icon-text icon-text-first">
               Hello,
               <br />
               <a
@@ -77,11 +77,11 @@ const Middle = () => {
           <div className="wishlist mx-1">
             <button
               type="button"
-              className="position-relative bg-transparent border-0 outline-0 text-white"
+              className="position-relative bg-transparent border-0 outline-0"
             >
-              <i className="fal fa-heart fa-2x"></i>
+              <i className="fal fa-heart fa-2x  text-white"></i>
               <span
-                className="position-absolute translate-middle p-1 border border-light d-flex justify-content-center align-items-center"
+                className="position-absolute translate-middle p-1 border border-light d-flex justify-content-center align-items-center bg-light"
               >
                 0
               </span>
@@ -91,16 +91,16 @@ const Middle = () => {
           <div className="mx-1 cart d-flex justify-content-center align-items-center text-white text-uppercase">
             <button
               type="button"
-              className="position-relative bg-transparent border-0 outline-0 text-white"
+              className="position-relative bg-transparent border-0 outline-0"
             >
-              <i className="fal fa-shopping-cart fa-2x"></i>
+              <i className="fal fa-shopping-cart fa-2x  text-white"></i>
               <span
-                className="position-absolute translate-middle p-1 border border-light d-flex justify-content-center align-items-center"
+                className="position-absolute translate-middle p-1 border border-light d-flex justify-content-center align-items-center bg-light"
               >
                 0
               </span>
             </button>
-            <p className="ps-2 m-0" style={{ fontSize: "12px" }}>
+            <p className="ps-2 m-0 icon-text icon-text-2nd">
               Cart,
               <br />
               <a
