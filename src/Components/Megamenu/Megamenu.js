@@ -5,7 +5,6 @@ import "./Megamenu.css";
 import PageIterator from "./PageIterator/PageIterator";
 
 const Megamenu = ({ category }) => {
-  console.log(category);
   return (
     <Container fluid className="bg-white border-bottom">
       <Container>
@@ -15,12 +14,9 @@ const Megamenu = ({ category }) => {
         >
           <div className="category border-start border-end">
             <div className="category-relative">
-              <div className="p-2">
+              <div className="p-2 category_button">
                 SHOP BY CATEGORY
                 <i className="fal fa-angle-down ms-4 fw-bold"></i>
-              </div>
-
-              <div className="category-absolute mt-2 w-100 border-start border-end border-bottom">
                 <AllCategoryList
                   categories={category.allCategories.categories}
                 />

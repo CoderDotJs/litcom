@@ -1,3 +1,6 @@
-.categories{
-    z-index: 99;
+.categories {
+  z-index: 99;
+}
+.categories__list {
+  position: relative;
 }
